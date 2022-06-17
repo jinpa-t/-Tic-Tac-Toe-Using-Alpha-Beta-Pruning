@@ -1,4 +1,4 @@
-# -Tic-Tac-Toe-Using-Alpha-Beta-Pruning
+# Tic-Tac-Toe-Using-Alpha-Beta-Pruning
 Computer vs. Player Tic-Tac-Toe game using MiniMax alpha-beta pruning.
 * This game is written in pure javascript. 
 * Live game can be found [here](https://jinpa-t.github.io/-Tic-Tac-Toe-Using-Alpha-Beta-Pruning/).
