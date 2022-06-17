@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<meta charset="utf-8">
+        <meta name="description" content="Two player tic-tac-toe">
+        <meta name="keywords" content="game, multiplayer, tic-tac-toe">
+        <meta name="author" content="Jtsering">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe using Alpha-Beta Pruning</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h3 class="text-center">(Tic-Tac-Toe)</h3><br>
+    <h4 style="text-align:center;" id="notice" ></h4>
+    <div class="container square w-50"> 
+        <div class="row">            
+            <div class="col">
+                <span><input  id="one"type="button" value="  "></span>
+            </div>
+            <div class="col">
+                <span><input  id="two" type="button" value="  "></span>
+            </div>
+            <div class="col">
+                <span><input  id="three" type="button" value="  "></span> </div>            
+        </div>
+        <div class="row">  
+            <div class="col  ">
+                <span><input  id="four" type="button" value="  "></span>
+            </div>
+            <div class="col  ">
+                <span><input  id="five" type="button" value="  "></span> </div>
+            <div class="col">
+                <span><input  id="six" type="button" value="  "></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col  ">
+                <span><input  id="seven" type="button" value="  "></span>
+            </div>
+            <div class="col  ">
+                <span><input id="eight" type="button" value="  "></span>
+            </div>
+            <div class="col  ">
+                <span><input id="nine" type="button" value="  "></span>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div>
+            <button type="button" id="reset" class="btn btn-primary">Reset</button>
+        </div>
+        <div class="notif m-1 bg-success" id="winner">
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.container{
+    min-width:180px;
+    min-height: 180px;
+    max-height: 180px;
+    max-width: 180px;
+    margin-bottom: 10px;
+}
+input{
+    font-weight: bolder;
+    width: 30px;
+    margin: 10px 0;
+    background:lightblue;
+    border:none;
+}
+.col{
+    width: 60px;
+    height: 60px;
+}
+.wrapper{
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+.notif{
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #fff;
+}
