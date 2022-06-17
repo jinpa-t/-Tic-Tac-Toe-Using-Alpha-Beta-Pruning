@@ -130,7 +130,7 @@ function minimax(board,depth,isMax, alpha, beta) {
                 }
             }
         }
-        return best;
+        return best - depth;
     } else {
         let best = Infinity; // worst score for minimizer
         for(let i = 0; i < 3; i++)
@@ -149,7 +149,7 @@ function minimax(board,depth,isMax, alpha, beta) {
                 }
             }
         }
-        return best;
+        return best + depth;
     }
 }
 
