@@ -185,7 +185,7 @@ function findBestMove(board) {
 
 function computerTurn() {
     let best_mov = findBestMove(real_board);
-    console.log(best_mov[0],best_mov[1])
+    //console.log(best_mov[0],best_mov[1])
     if(best_mov[0] == -1 && best_mov[1] == -1) {
         return;
     }
